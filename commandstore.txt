@@ -1,0 +1,11 @@
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+redis-cli ping  # To check if Redis replies with PONG
+
+sudo systemctl status redis-server
+(Above command checks if redis is running or not)
+
+sudo service redis-server restart
+(doing the above worked-worked means redis-cli ping must return pong)
+
+

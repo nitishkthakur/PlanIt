@@ -1,3 +1,19 @@
 .venv/
 .env
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+
+# Django specific
+*.sqlite3
+
+# Environment variables
+.env
+
+# Celery related
+celerybeat-schedule

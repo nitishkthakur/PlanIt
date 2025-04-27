@@ -22,3 +22,6 @@ gunicorn>=21.2
 
 # Docker and Other Development Utilities (optional for later)
 python-dotenv>=1.0
+python-decouple
+django-environ
+psycopg2-binary 
